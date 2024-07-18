@@ -1,0 +1,59 @@
+.TodoItem-c {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    font-size: 10px;
+}
+
+.TodoItem-div-title {
+    display: flex;
+    color: #66BD3A;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.TodoItem-c-dates {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.TodoItem-c-dates > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.TodoItem-c-dates-label {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+.TodoItem-c-dates input {
+    color: #fff;
+    background: transparent;
+}
+
+.TodoItem-description {
+    height: 60px;
+}
+
+.TodoItem-element--complete {
+    text-decoration: line-through;
+}
+
+.TodoItem-c textarea  {
+    color: #fff;
+    border: none;
+    resize: none;
+    width: calc(100% - 50px);
+    padding: 5px;
+    border-radius: 5px;
+}

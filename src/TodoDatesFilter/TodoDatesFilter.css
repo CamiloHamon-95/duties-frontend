@@ -1,0 +1,32 @@
+.ct-filter-dates
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct-filter-dates .calendar
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    width: 210px;
+    background-color: #427A47;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(121, 121, 121, 0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.ct-filter-dates .calendar:hover
+{
+    background-color: #3B5E3E;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.24),0 8px 20px 0 rgba(121, 121, 121, 0.19);
+}
+
+.ct-filter-dates .calendar:active
+{
+    background-color: #427A47;
+}

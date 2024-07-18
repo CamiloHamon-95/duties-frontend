@@ -1,0 +1,13 @@
+.TodoCreateContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 0.5;
+    width: 550px;
+}
+
+@media screen and (max-width: 1230px) {
+    .TodoCreateContainer {
+      display: none;
+    }
+  }
